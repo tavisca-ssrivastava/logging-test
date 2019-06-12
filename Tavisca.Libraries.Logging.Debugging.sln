@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Libraries.Logging.Debugging", "Tavisca.Libraries.Logging.Debugging\Tavisca.Libraries.Logging.Debugging.csproj", "{EF30D4E2-A668-4757-B49F-5398E83E8778}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "externals", "externals", "{75AE3A28-174F-41F8-B22F-D631AD39DE7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Platform.Common.Core", "submodules\Tavisca.Platform.Common\Tavisca.Platform.Common.Core.csproj", "{9D0AB7BE-FFC6-4ECF-A6B6-6735A00183A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Common.Plugins.Configuration.Core", "submodules\Tavisca.Common.Plugins.Configuration\Tavisca.Common.Plugins.Configuration.Core.csproj", "{5856B36F-645A-4FF9-8875-EB25D46D1EFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Common.Plugins.Redis.Core", "submodules\Tavisca.Common.Plugins.Redis\Tavisca.Common.Plugins.Redis.Core.csproj", "{38D2EFA6-8907-4522-B875-60BF77ABA14D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Common.Plugins.Aws.Core", "submodules\Tavisca.Common.Plugins.Aws\Tavisca.Common.Plugins.Aws.Core.csproj", "{F056D7B2-2158-494C-9355-214915B78013}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Platform.Common.Models.Core", "submodules\Tavisca.Platform.Common.Models\Tavisca.Platform.Common.Models.Core.csproj", "{DCBCBFE0-A331-4D35-A421-51BD84031C9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Platform.Common.Plugins.Json.Core", "submodules\Tavisca.Platform.Common.Plugins.Json\Tavisca.Platform.Common.Plugins.Json.Core.csproj", "{B9D5781C-940A-4F57-B1B3-1B19BB1F1D8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Common.Plugins.RecyclableStreamPool.Core", "submodules\Tavisca.Common.Plugins.RecyclableStreamPool\Tavisca.Common.Plugins.RecyclableStreamPool.Core.csproj", "{9D191985-6725-4E14-AE3A-80DCE2180E98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF30D4E2-A668-4757-B49F-5398E83E8778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF30D4E2-A668-4757-B49F-5398E83E8778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF30D4E2-A668-4757-B49F-5398E83E8778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF30D4E2-A668-4757-B49F-5398E83E8778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D0AB7BE-FFC6-4ECF-A6B6-6735A00183A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0AB7BE-FFC6-4ECF-A6B6-6735A00183A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0AB7BE-FFC6-4ECF-A6B6-6735A00183A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0AB7BE-FFC6-4ECF-A6B6-6735A00183A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5856B36F-645A-4FF9-8875-EB25D46D1EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5856B36F-645A-4FF9-8875-EB25D46D1EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5856B36F-645A-4FF9-8875-EB25D46D1EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5856B36F-645A-4FF9-8875-EB25D46D1EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D2EFA6-8907-4522-B875-60BF77ABA14D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D2EFA6-8907-4522-B875-60BF77ABA14D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D2EFA6-8907-4522-B875-60BF77ABA14D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D2EFA6-8907-4522-B875-60BF77ABA14D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F056D7B2-2158-494C-9355-214915B78013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F056D7B2-2158-494C-9355-214915B78013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F056D7B2-2158-494C-9355-214915B78013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F056D7B2-2158-494C-9355-214915B78013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCBCBFE0-A331-4D35-A421-51BD84031C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBCBFE0-A331-4D35-A421-51BD84031C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBCBFE0-A331-4D35-A421-51BD84031C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBCBFE0-A331-4D35-A421-51BD84031C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D5781C-940A-4F57-B1B3-1B19BB1F1D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D5781C-940A-4F57-B1B3-1B19BB1F1D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D5781C-940A-4F57-B1B3-1B19BB1F1D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D5781C-940A-4F57-B1B3-1B19BB1F1D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D191985-6725-4E14-AE3A-80DCE2180E98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D191985-6725-4E14-AE3A-80DCE2180E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D191985-6725-4E14-AE3A-80DCE2180E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D191985-6725-4E14-AE3A-80DCE2180E98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D0AB7BE-FFC6-4ECF-A6B6-6735A00183A3} = {75AE3A28-174F-41F8-B22F-D631AD39DE7F}
+		{5856B36F-645A-4FF9-8875-EB25D46D1EFC} = {75AE3A28-174F-41F8-B22F-D631AD39DE7F}
+		{38D2EFA6-8907-4522-B875-60BF77ABA14D} = {75AE3A28-174F-41F8-B22F-D631AD39DE7F}
+		{F056D7B2-2158-494C-9355-214915B78013} = {75AE3A28-174F-41F8-B22F-D631AD39DE7F}
+		{DCBCBFE0-A331-4D35-A421-51BD84031C9C} = {75AE3A28-174F-41F8-B22F-D631AD39DE7F}
+		{B9D5781C-940A-4F57-B1B3-1B19BB1F1D8A} = {75AE3A28-174F-41F8-B22F-D631AD39DE7F}
+		{9D191985-6725-4E14-AE3A-80DCE2180E98} = {75AE3A28-174F-41F8-B22F-D631AD39DE7F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B36BD442-16FC-45DC-A5D6-64370ACCD31D}
+	EndGlobalSection
+EndGlobal
