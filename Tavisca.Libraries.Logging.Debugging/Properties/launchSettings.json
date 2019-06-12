@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Tavisca.Libraries.Logging.Debugging": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "qa"
+      }
+    }
+  }
+}
